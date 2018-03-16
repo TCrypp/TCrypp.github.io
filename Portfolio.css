@@ -1,0 +1,97 @@
+body {background-color: #f2f2f2;
+   font-size: 20px;
+  font-family: 'Roboto Mono', monospace;
+}
+h1{
+  background-color: white;
+}
+
+
+
+#postcode {
+  color: blue;
+}
+  
+#size {
+  font-size: 20px;
+}
+
+.socialbutton {
+  width: 50px;
+  height: 50px;
+}
+.inline {
+  display: inline-block;
+  border: solid black;
+}
+.border {
+  border: solid black;
+}
+
+.header {
+  background: url("img/city_50_opacity.jpeg");
+}
+.inliner {
+  display: inline-block;
+  border: solid black;
+  color: white;
+  font-family: 'Special Elite', cursive;
+  
+}
+.spread {
+    display: inline-block;
+    display: -moz-inline-box;
+    *display: inline;
+    width: 33%;
+    text-align: center;
+}
+.flex {
+  display: flex;
+  padding 10px;
+  justify-content: space-evenly;
+  border: 2px solid black;
+  color: white;
+  background: black;
+}
+
+li {
+   list-style-type: none;
+}
+
+.video {
+  display: flex;
+  position: center;
+  width: left;
+  
+}
+
+@media(max-width:480px){
+  iframe {
+    width:100%;
+  }
+}
+
+
+a {
+  color: white;
+}
+
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: white;
+    background: cornflowerblue;
+}
